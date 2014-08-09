@@ -8,20 +8,20 @@ S
 0
 A
 300
-/home/michaelb/work/data/trole/input/it_ccw_rx3.txt
-/home/michaelb/work/data/trole/input/it_ccw_rx3.txt
+./data/input/it_ccw_rx3.txt
+./data/input/it_ccw_rx3.txt
 0.0
 0.0729205
 100
-/home/michaelb/work/data/trole/output/o_wrbc.txt
-/home/michaelb/work/data/trole/output/o_wrpl.txt
+./data/output/o_wrbc.txt
+./data/output/o_wrpl.txt
 3.0
 100000
-/home/michaelb/work/data/trole/output/o_rx.txt
+./data/output/o_rx.txt
 0.1
 0
 0.7
 0.1
 100
-/home/michaelb/work/data/trole/output/o_od.txt
+./data/output/o_od.txt
 

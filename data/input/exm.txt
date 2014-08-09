@@ -9,7 +9,7 @@ E
 A
 300
 0
-/home/michaelb/work/data/trole/input/it_a2p_cw.txt
-/home/michaelb/work/data/trole/output/o_
-/home/michaelb/work/data/trole/output/it_cwe.txt
+./data/input/it_a2p_cw.txt
+./data/output/o_
+./data/output/it_cwe.txt
 
