@@ -1,3 +1,4 @@
 ./src/*~
 ./obj/
 ./bin/
+./data/output/
