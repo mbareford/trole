@@ -1,0 +1,15 @@
+E
+0.5
+1.0
+1.0
+3.0
+20.0
+1
+0
+A
+300
+0
+/home/michaelb/work/data/trole/input/it_a2p_cw.txt
+/home/michaelb/work/data/trole/output/o_
+/home/michaelb/work/data/trole/output/it_cwe.txt
+
