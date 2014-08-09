@@ -10,7 +10,7 @@ set xrange [*:*]
 set yrange [*:*]
 set zrange [*:*]
 
-path = '"../../data/trole/output'
+path = '"../../data/output'
 set macros
 
 set terminal postscript eps enhanced solid 18
@@ -25,6 +25,6 @@ set ylabel "Flare Count (normalised)"
 set xrange [*:*]
 set yrange [*:*]
 
-set output @path/figs/wrpf_rx1_e1r.eps"
+set output @path/figs/wrpf.eps"
 plot @path/o_wrbc.txt" using 1:($2/100000.0) with lines lt -1
 unset label
