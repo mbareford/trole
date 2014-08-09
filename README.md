@@ -19,21 +19,20 @@ The following commands assume that the user is in the trole directory with the s
 Also, GNU Scientific Library v1.16 must be installed in the default locations (i.e., /usr/local/lib and /usr/local/include/gsl).
 
 
-1. Setting up the TRoLE environment...
+Setting up the TRoLE environment...
 
 source ./env.sh
 
 
-2. Compiling TRoLE from within emacs...
+Compiling TRoLE from within emacs...
 
 emacs makefile &
 M-x compile
 make -C ./bin/trole
 
 
-3. Debugging TRoLE from within emacs...
+Debugging TRoLE from within emacs...
 
 M-x gdb
 gdb --annotate=3 ./bin/trole
-
 run ./data/input/exm.txt
