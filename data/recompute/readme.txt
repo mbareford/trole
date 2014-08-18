@@ -43,11 +43,12 @@ vagrant ssh
 	sudo apt-get install ghostscript
 	sudo apt-get install g++	
 	sudo apt-get install libgsl0ldbl gsl-bin
-# Extract header gsl files from ftp://ftp.gnu.org/gnu/gsl/gsl-1.9.tar.gz and copy to /usr/local/include/
+        sudo ln -s /usr/lib/libgsl.so.0 /usr/local/lib/libgsl.so
+	sudo ln -s /usr/lib/libgslcblas.so.0 /usr/local/lib/libgslcblas.so
+	### Extract header gsl files from ftp://ftp.gnu.org/gnu/gsl/gsl-1.9.tar.gz and copy to /usr/local/include/ ###
 	sudo apt-get install git
 	git clone https://github.com/mbareford/trole
 	cd ./trole
-	chmod a+x ./env.sh
 	source ./env.sh
 	make
 	./bin/trole ./data/input/shp_lle0.txt
@@ -55,9 +56,11 @@ vagrant ssh
 	./bin/trole ./data/input/shp_lle2.txt
 	./bin/trole ./data/input/shp_lle3.txt
 	gnuplot ./scripts/gnuplot/figs.p
-	ghostscript ./data/output/figs/wrpf_rx10e5_lle3.eps ./data/output/figs/wrpf_rx10e5_lle2.eps ./data/output/figs/wrpf_rx10e5_lle1.eps ./data/output/figs/wrpf_rx10e5_lle0.eps
+	cp ./data/output/figs/*.eps /vagrant/
+	exit
 vagrant halt
 vagrant package --output trole.box
+### View the EPS files from within host ###
 
 
 
