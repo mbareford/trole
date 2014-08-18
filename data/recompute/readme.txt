@@ -10,7 +10,7 @@ For more details see the readme.md file in the parent directory.
 
 The following commands assume that the user is in the trole directory with the source code in ./src.
 GNU Scientific Library v1.16 must be installed in the default locations (i.e., /usr/local/lib and /usr/local/include/gsl), as
-well as gnuplot v4.6 and ghostscript v9.10.
+well as g++ v4.9, gnuplot v4.6 and ghostscript v9.10.
 
 
 # Setup compile environment...
